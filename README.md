@@ -9,7 +9,7 @@ Rest api проекта yamdb. Проект собирает отзывы пол
 Клонировать репозиторий:
 
 ```
-git clone https://github.com/ViTalityGH/api_yamdb.git
+https://github.com/zhalosm/infra_sp2.git
 ```
 
 Перейти в папку с файлом docker-compose.yaml:
