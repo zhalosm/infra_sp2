@@ -42,7 +42,7 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-Следующим шагом создайте дамп (резервную копию) базы:
+Cоздание дамп (резервной копии) базы:
 
 ```
 docker-compose exec web python manage.py dumpdata > fixtures.json
