@@ -65,4 +65,4 @@ DB_HOST=db
 DB_PORT=5432
 ```
 
-# Документация доступна по эндпойнту: http://localhost/redoc/
+Документация доступна по эндпойнту: http://localhost/redoc/
