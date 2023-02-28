@@ -1,7 +1,7 @@
 # Api_yamdb
 
 Rest api проекта yamdb. Проект собирает отзывы пользовтелей на произведения - книги, музыка, фильмы. 
-Приозведения деляться на жанры, категории и имеют рейтинг
+Приозведения деляться на жанры, категории и имеют рейтинг.
 
 
 # Запуск проекта в контейнере
@@ -9,7 +9,7 @@ Rest api проекта yamdb. Проект собирает отзывы пол
 Клонировать репозиторий:
 
 ```
-git clone https://github.com/ViTalityGH/api_yamdb.git
+https://github.com/zhalosm/infra_sp2.git
 ```
 
 Перейти в папку с файлом docker-compose.yaml:
@@ -42,7 +42,7 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-Следующим шагом создайте дамп (резервную копию) базы:
+Cоздание дамп (резервной копии) базы:
 
 ```
 docker-compose exec web python manage.py dumpdata > fixtures.json
@@ -65,4 +65,4 @@ DB_HOST=db
 DB_PORT=5432
 ```
 
-# Документация доступна по эндпойнту: http://localhost/redoc/
+Документация доступна по эндпойнту: http://localhost/redoc/
